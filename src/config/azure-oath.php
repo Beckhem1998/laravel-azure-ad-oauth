@@ -39,7 +39,10 @@ return [
     'user_map' => [
         'name' => 'name',
         'email' => 'email',
-        'name' => 'name',
-        'name' => 'name',
-    ]
+    ],
+
+    // Which field is the unique identifier for users table
+    // This field needs to be one of the values above
+    'user_unique_field' => 'email',
+
 ];
